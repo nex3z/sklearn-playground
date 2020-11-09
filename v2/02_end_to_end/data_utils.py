@@ -39,7 +39,6 @@ def split_xy(df_data):
 
 def build_pipeline(df_X):
     num_attribs = list(df_X.columns)
-    print(f"num_attribs = {num_attribs}")
     num_attribs.remove('ocean_proximity')
     cat_attribs = ['ocean_proximity']
 
